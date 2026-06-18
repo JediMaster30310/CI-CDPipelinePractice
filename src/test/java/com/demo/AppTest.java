@@ -19,6 +19,11 @@ class AppTest {
     }
 
     @Test
+    void testMultiply() {
+        assertEquals(25, App.multiply(5, 5));
+    }
+
+    @Test
     void testSquare() {
         assertEquals(25, App.square(5));
     }
