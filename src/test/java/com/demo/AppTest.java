@@ -10,6 +10,10 @@ class AppTest {
         assertEquals("Hello CI Pipeline!", App.greet());
     }
     @Test
+    void testDisplay() {
+        assertEquals("display data", App.display());
+    }
+    @Test
     void testAdd() {
         assertEquals(5, App.add(2, 3));
     }
