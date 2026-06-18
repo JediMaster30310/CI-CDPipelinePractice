@@ -10,9 +10,9 @@ public class App {
     public static int square(int x) {
         return x * x;
     }
-    public  void display()
+    public  static String  display()
     {
-        System.out.println("display data");
+        return "display data";
     }    
     public static void main(String[] args) {
         System.out.println(greet());
